@@ -27,14 +27,13 @@ The Test Plan is designed to describe all details of testing for all the modules
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
 
-<h4>1.1.1. Roles asigned to the project and persons allocated</h4>
+<h4>1.1.1. Roles assigned to the project and persons allocated</h4>
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
 <ul>
-  <li>Project manager</li> 
-  <li>Product owner</li>
-  <li>Software developer</li>
-  <li>QA Engineer</li>
+  <li>Project manager: Abigail Sing</li> 
+  <li>Product owner: IBM</li>
+  <li>Software developer: Daniel Pearson</li>
+  <li>QA Engineer: Patricia Tulai</li>
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
@@ -59,11 +58,35 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+Risk 1: Incomplete execution of planned tests
+Description: Of the 10 tests written, only 3 have been run to date, indicating a potential delay in testing completion.
+Impact: High - If tests remain unrun, there is a risk that other critical bugs will not be identified before release.
+Probability: Medium
+Priority: High
+Mitigation: Allocating additional testing resources and setting clear deadlines for the execution of the remaining tests.
+
+Risk 2: Insufficient resources for testing
+Description: The low number of tests run suggests that the test team may be undersized or that there are issues with time and resource management.
+Impact: High - Insufficient resources can lead to inadequate testing coverage, which increases the likelihood of releasing a defective product.
+Probability: Medium
+Priority: High
+Mitigation: Reviewing resource planning, ensuring that the test team has sufficient staff and time allocated to complete all required tests.
 
 <h5> Product risks: </h5>
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+Risk 1: Severity A bugs
+Description: The two bugs identified with severity A may affect critical functionality of the application, having a major impact on end users.
+Impact: Very High - Severity A bugs can result in data loss, users' inability to perform transactions or access critical functionality.
+Likelihood: Medium - Given that bugs have already been identified, there is a chance that other critical issues are still present.
+Priority: Very High
+Mitigation: Immediate remediation of A-severity bugs and re-executing tests to verify application stability after remediation.
+
+Risk 2: Negative impact on user experience
+Description: Critical bugs directly affect the user experience, which can lead to dissatisfaction, loss of customers and damage to the app's reputation.
+Impact: Very High - A broken or unstable product can have negative consequences on user loyalty and the commercial success of the application.
+Probability: Medium
+Priority: Very High
+Mitigation: Focusing on quickly identifying all major functionality issues and correcting them prior to official release.
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -78,7 +101,7 @@ The testing process will be executed based on the application requirements. <b>(
 
 The following test conditions were found: <br>
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Test-Conditions]]
 
 <h3>1.4 Test Design</h3>
 
@@ -94,24 +117,32 @@ The following elements are needed to be ready before the test execution phase be
 
 Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
-
-The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+Bugs have been created based on the failed tests. The complete bug reports can be found here: [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Bug-Report-1]] and [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Bug-Report-2]]
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 <h3> 1.7 Test Completion</h3>
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here: [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Matricea-trasabilitatii]]
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Raport-de-executie-%E2%80%90-Jira-Dashboards]]
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
+The final report shows that a number of 2 tests failed, of which there were a total of 3.
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+A number of 2 total bugs were found, from which the priority is high.
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+<h5> Conclusion </h5>
+
+The "Polymer Shop" application testing project was successfully carried out, using JIRA and the Zephyr plugin to organize and track testing activities.
+
+Within this project, 3 stories were created and planned, all covered by tests, which shows a good alignment between development requirements and testing activities.
+10 tests were written to cover these stories, but only 3 of them have been executed so far.
+
+Following the execution of the tests, 2 major bugs were identified, classified with severity A, which indicate critical issues that can significantly affect end users. Severity A suggests that these bugs affect the core functionality of the application, which can lead to a severely compromised user experience.
+
+These issues should be addressed with the highest priority, because if left unresolved, they can lead to the inability to access certain critical features of the application.
+
+In conclusion, although the test coverage is promising and all stories are covered, the limited test execution and critical bugs identified show that the project needs further attention to ensure the delivery of a stable and reliable application. It is essential that the development team prioritizes the resolution of identified bugs to minimize the impact on end users and improve the overall quality of the application before release.
