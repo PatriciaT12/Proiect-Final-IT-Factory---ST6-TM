@@ -10,7 +10,8 @@ Tools used: Jira, Zephyr Squad.
 
 The below stories were created in Jira and describe the functional specifications of the "SHOP" module, for which the final project is performed upon.
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Story-1]]
+[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Story-2]]
 
 Here you can find the release that was created for this project:
 
