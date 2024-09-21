@@ -9,29 +9,29 @@ Tools used: Jira, Zephyr Squad.
 <h1> Table of Content:</h1>
 
 1. Introduction
-         • Project Objective
-         • Functionalities in Scope
+         * Project Objective
+         * Functionalities in Scope
 2. Test Process
-         • Test Planning
-                 • Roles and Responsibilities
-                 • Entry Criteria
-                 • Exit Criteria
-                 • Risks
-         • Test Analysis
-         • Test Design
-         • Test Implementation
-         • Test Execution
-         • Test Closure
-         • Test Monitoring and Control
+         * Test Planning
+                 * Roles and Responsibilities
+                 * Entry Criteria
+                 * Exit Criteria
+                 * Risks
+         * Test Analysis
+         * Test Design
+         * Test Implementation
+         * Test Execution
+         * Test Closure
+         * Test Monitoring and Control
 3. Test Deliverables
-         • Test Conditions
-         • Test Cases
-         • Daily Test Summary Reports
-         • Traceability Matrix
-         • Test Case Results
-         • Bugs Report
-         • Test Completion Report
-         • Schedule
+         * Test Conditions
+         * Test Cases
+         * Daily Test Summary Reports
+         * Traceability Matrix
+         * Test Case Results
+         * Bugs Report
+         * Test Completion Report
+         * Schedule
 4. Conclusion
    
 Functionalities in Scope
