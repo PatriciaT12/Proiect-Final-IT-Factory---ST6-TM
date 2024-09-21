@@ -52,33 +52,41 @@ The plan identifies the items to be tested, the features to be tested, the types
 <h5> Tests in scope: </h5>
 
 **1. Product Catalog**
+
 • Viewing products in various categories (e.g., Men’s Outwear, Ladies Outwear).
 • Filtering and sorting products by price, name, or popularity.
 
 **2. Product Details Page**
+
 • Viewing product descriptions, prices, and available sizes/colours.
 • Selecting product quantity.
 
 **3. Cart Management**
+
 • Adding a product to the cart.
 • Modifying product quantity in the cart.
 • Removing products from the cart.
 • Viewing cart summary (total price, product details).
 
 **4. Checkout**
+
 • Entering shipping and billing information.
 • Payment gateway integration (if applicable).
 • Confirming orders.
 
 **5. Navigation**
+
 • Navigating between different pages (e.g., home, product pages, cart).
 • Testing for broken links or buttons that don’t function correctly.
 
 <h5>Tests not in scope: </h5>
 
 • Backend database optimizations and server-side performance tuning.
+
 • Third-party API performance (if any).
+
 • Security Testing
+
 • Performance Testing
 
 <h4>1.1.5 Risks detected</h4>
@@ -86,40 +94,60 @@ The plan identifies the items to be tested, the features to be tested, the types
 **<h5>Project risks:</h5>**
 
 **Risk 1: Incomplete execution of planned tests**
+
 Description: Of the 10 tests written, only 3 have been run to date, indicating a potential delay in testing completion.
+
 Impact: High - If tests remain unrun, there is a risk that other critical bugs will not be identified before release.
+
 Probability: Medium
+
 Priority: High
+
 Mitigation: Allocating additional testing resources and setting clear deadlines for the execution of the remaining tests.
 
 **Risk 2: Insufficient resources for testing**
+
 Description: The low number of tests run suggests that the test team may be undersized or that there are issues with time and resource management.
+
 Impact: High - Insufficient resources can lead to inadequate testing coverage, which increases the likelihood of releasing a defective product.
+
 Probability: Medium
+
 Priority: High
+
 Mitigation: Reviewing resource planning, ensuring that the test team has sufficient staff and time allocated to complete all required tests.
 
 **<h5> Product risks: </h5>**
 
 **Risk 1: Severity A bugs**
-Description: The two bugs identified with severity A may affect critical functionality of the application, having a major impact on end users.
-Impact: Very High - Severity A bugs can result in data loss, users' inability to perform transactions or access critical functionality.
+
+Description: The two bugs identified with severity A may affect the critical functionality of the application, having a major impact on end users.
+
+Impact: Very High - Severity A bugs can result in data loss, and users' inability to perform transactions or access critical functionality.
+
 Likelihood: Medium - Given that bugs have already been identified, there is a chance that other critical issues are still present.
+
 Priority: Very High
+
 Mitigation: Immediate remediation of A-severity bugs and re-executing tests to verify application stability after remediation.
 
 **Risk 2: Negative impact on user experience**
+
 Description: Critical bugs directly affect the user experience, which can lead to dissatisfaction, loss of customers and damage to the app's reputation.
+
 Impact: Very High - A broken or unstable product can negatively affect user loyalty and the commercial success of the application.
+
 Probability: Medium
+
 Priority: Very High
+
 Mitigation: Focusing on quickly identifying all major functionality issues and correcting them prior to official release.
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>##1.2 Test Monitoring and Control for Polymer Shop Project##<h3>
+<h3>1.2 Test Monitoring and Control for Polymer Shop Project<h3>
   
 The testing process for the Polymer Shop Project will be closely monitored through periodic reports that provide an overview of the current status and progress of testing activities. Key aspects of test monitoring and control will include:
 
@@ -144,25 +172,60 @@ The testing process for the Polymer Shop Project will be closely monitored throu
 Through this process of monitoring and control, the Polymer Shop Project will remain agile and responsive, ensuring that testing efforts are directed where they are most needed and that the overall quality of the application is maintained.
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements. <b>
 
 The following test conditions were found: <br>
 
-[Test Conditions](Test Conditions.png)
+![Test Conditions](https://github.com/user-attachments/assets/994db4eb-a5f4-4ae9-853b-2dcf72c3ba4e)
 
 <h3>1.4 Test Design</h3>
 
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
 
-[Test Case 1](Test Case 1.png)
-[Test Case 2](Test Case 2.png)
-[Test Case 3](Test Case 3.png)
+![Test Case 1](https://github.com/user-attachments/assets/e9ad3b37-506d-40c6-951d-44b6df24de35)
+
+![Test Case 2](https://github.com/user-attachments/assets/70f42e48-8bfe-48eb-a67c-157e15937726)
+
+![Test Case 3](https://github.com/user-attachments/assets/1264056f-4988-4fcf-9590-a5ec9f37e3cc)
+
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+**•	Test Cases:**
+o	All test cases must be fully documented, reviewed, and approved.
+
+o	Both manual and automated test cases should be clearly outlined to cover all functionalities such as user authentication, cart management, and checkout process.
+
+**•	Test Data:**
+o	Accurate and comprehensive test data needs to be created to simulate real-world scenarios.
+
+o	This includes multiple user profiles, different product types (e.g., Men's and Women's Outwear), and various payment methods.
+
+**•	Test Environment:**
+o	The test environment should be set up to mirror the production environment as closely as possible.
+
+o	All necessary components such as servers, databases, and third-party integrations must be configured correctly.
+
+**•	Test Tools:**
+o	All testing tools (e.g., JIRA with Zephyr Squad for test case management) should be installed, integrated, and verified.
+
+**•	Test Resources:**
+
+o	The testing team must be briefed on their roles and responsibilities.
+
+o	Adequate resources and personnel should be allocated for test execution, defect reporting, and re-testing.
+
+**•	Test Environment Accessibility:**
+
+o	Ensure the environment is accessible to all testers and stakeholders, with proper permissions and access to tools and infrastructure.
+
+**•	Test Schedule:**
+
+o	A finalized test schedule should be in place, outlining the timeline for test execution, regression testing, and final reviews.
+
+Once these elements are in place, the Test Execution phase can proceed, ensuring comprehensive coverage of the Polymer Shop functionalities and a robust validation process.
 
 <h3>1.6. Test Execution </h3>
 
@@ -170,8 +233,9 @@ Test cases are executed on the created test Cycle summary: **(inserati aici nume
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: 
 
-[Bug Report 1](Bug Report 1.png)
-[Bug Report 2](Bug Report 2.png)
+![Bug Report 1](https://github.com/user-attachments/assets/38cb55b4-a9e9-482b-803b-696ebbddf93e)
+
+![Bug Report 2](https://github.com/user-attachments/assets/d7f3db85-4828-47e3-948d-2acb190df9c6)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
@@ -180,11 +244,11 @@ As the Exit criteria were met and satisfied as mentioned in the appropriate sect
 
 The traceability matrix was generated and can be found here: 
 
-[Traceability Matrix](Traceability Matrix.png)
+![Traceability Matrix](https://github.com/user-attachments/assets/d7c0e3e9-d610-4fec-b00d-d2730e739c8f)
 
 Test execution chart was generated and can be found below. 
 
-[Test execution chart](Raport de executie.png)
+![Raport de executie](https://github.com/user-attachments/assets/114137c8-4476-4d37-9d18-712f516bc46e)
 
 The final report shows that a number of 2 tests failed, of which there were a total of 3.
 
