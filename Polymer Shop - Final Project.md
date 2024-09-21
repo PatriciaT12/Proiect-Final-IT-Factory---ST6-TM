@@ -34,30 +34,6 @@ Tools used: Jira, Zephyr Squad.
 * Schedule
 4. Conclusion
    
-Functionalities in Scope
-Functionalities and Tests Out of Scope
-Test Process
-Test Planning
-Roles and Responsibilities
-Entry Criteria
-Exit Criteria
-Risks
-Test Analysis
-Test Design
-Test Implementation
-Test Execution
-Test Closure
-Test Monitoring and Control
-Test Deliverables
-Test Conditions
-Test Cases
-Daily Test Summary Reports
-Traceability Matrix
-Test Case Results
-Bugs Report
-Test Completion Report
-Schedule
-
 <h2>Functional specifications:</h2>
 
 The stories below were created in Jira and describe the functional specifications of the "SHOP" module, for which the final project is performed.
@@ -89,15 +65,15 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-• The development team has completed coding and unit testing.
-• All test data is prepared and available.
-• All necessary test environments are set up.
+* The development team has completed coding and unit testing.
+* All test data is prepared and available.
+* All necessary test environments are set up.
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-• All critical and major bugs are resolved.
-• 98% of test cases are passed.
-• No high-severity defects remain unresolved.
+* All critical and major bugs are resolved.
+* 98% of test cases are passed.
+* No high-severity defects remain unresolved.
 
 <h4> 1.1.4 Test scope</h4>
 
@@ -105,41 +81,37 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 **1. Product Catalog**
 
-• Viewing products in various categories (e.g., Men’s Outwear, Ladies Outwear).
-• Filtering and sorting products by price, name, or popularity.
+* Viewing products in various categories (e.g., Men’s Outwear, Ladies Outwear).
+* Filtering and sorting products by price, name, or popularity.
 
 **2. Product Details Page**
 
-• Viewing product descriptions, prices, and available sizes/colours.
-• Selecting product quantity.
+* Viewing product descriptions, prices, and available sizes/colours.
+* Selecting product quantity.
 
 **3. Cart Management**
-
-• Adding a product to the cart.
-• Modifying product quantity in the cart.
-• Removing products from the cart.
-• Viewing cart summary (total price, product details).
+* Adding a product to the cart.
+* Modifying product quantity in the cart.
+* Removing products from the cart.
+* Viewing cart summary (total price, product details).
 
 **4. Checkout**
 
-• Entering shipping and billing information.
-• Payment gateway integration (if applicable).
-• Confirming orders.
+* Entering shipping and billing information
+* Payment gateway integration (if applicable).
+* Confirming orders.
 
 **5. Navigation**
 
-• Navigating between different pages (e.g., home, product pages, cart).
-• Testing for broken links or buttons that don’t function correctly.
+* Navigating between different pages (e.g., home, product pages, cart).
+* Testing for broken links or buttons that don’t function correctly.
 
 <h5>Tests not in scope: </h5>
 
-• Backend database optimizations and server-side performance tuning.
-
-• Third-party API performance (if any).
-
-• Security Testing
-
-• Performance Testing
+* Backend database optimizations and server-side performance tuning.
+* Third-party API performance (if any).
+* Security Testing
+* Performance Testing
 
 <h4>1.1.5 Risks detected</h4>
 
@@ -147,53 +119,53 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 **Risk 1: Incomplete execution of planned tests**
 
-Description: Of the 10 tests written, only 3 have been run to date, indicating a potential delay in testing completion.
+* Description: Of the 10 tests written, only 3 have been run to date, indicating a potential delay in testing completion.
 
-Impact: High - If tests remain unrun, there is a risk that other critical bugs will not be identified before release.
+* Impact: High - If tests remain unrun, there is a risk that other critical bugs will not be identified before release.
 
-Probability: Medium
+* Probability: Medium
 
-Priority: High
+* Priority: High
 
-Mitigation: Allocating additional testing resources and setting clear deadlines for the execution of the remaining tests.
+* Mitigation: Allocating additional testing resources and setting clear deadlines for the execution of the remaining tests.
 
 **Risk 2: Insufficient resources for testing**
 
-Description: The low number of tests run suggests that the test team may be undersized or that there are issues with time and resource management.
+* Description: The low number of tests run suggests that the test team may be undersized or that there are issues with time and resource management.
 
-Impact: High - Insufficient resources can lead to inadequate testing coverage, which increases the likelihood of releasing a defective product.
+* Impact: High - Insufficient resources can lead to inadequate testing coverage, which increases the likelihood of releasing a defective product.
 
-Probability: Medium
+* Probability: Medium
 
-Priority: High
+* Priority: High
 
-Mitigation: Reviewing resource planning, ensuring that the test team has sufficient staff and time allocated to complete all required tests.
+* Mitigation: Reviewing resource planning, ensuring that the test team has sufficient staff and time allocated to complete all required tests.
 
 **<h5> Product risks: </h5>**
 
 **Risk 1: Severity A bugs**
 
-Description: The two bugs identified with severity A may affect the critical functionality of the application, having a major impact on end users.
+* Description: The two bugs identified with severity A may affect the critical functionality of the application, having a major impact on end users.
 
-Impact: Very High - Severity A bugs can result in data loss, and users' inability to perform transactions or access critical functionality.
+* Impact: Very High - Severity A bugs can result in data loss, and users' inability to perform transactions or access critical functionality.
 
-Likelihood: Medium - Given that bugs have already been identified, there is a chance that other critical issues are still present.
+* Likelihood: Medium - Given that bugs have already been identified, there is a chance that other critical issues are still present.
 
-Priority: Very High
+* Priority: Very High
 
-Mitigation: Immediate remediation of A-severity bugs and re-executing tests to verify application stability after remediation.
+* Mitigation: Immediate remediation of A-severity bugs and re-executing tests to verify application stability after remediation.
 
 **Risk 2: Negative impact on user experience**
 
-Description: Critical bugs directly affect the user experience, which can lead to dissatisfaction, loss of customers and damage to the app's reputation.
+* Description: Critical bugs directly affect the user experience, which can lead to dissatisfaction, loss of customers and damage to the app's reputation.
 
-Impact: Very High - A broken or unstable product can negatively affect user loyalty and the commercial success of the application.
+* Impact: Very High - A broken or unstable product can negatively affect user loyalty and the commercial success of the application.
 
-Probability: Medium
+* Probability: Medium
 
-Priority: Very High
+* Priority: Very High
 
-Mitigation: Focusing on quickly identifying all major functionality issues and correcting them prior to official release.
+* Mitigation: Focusing on quickly identifying all major functionality issues and correcting them prior to official release.
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -279,7 +251,7 @@ o	A finalized test schedule should be in place, outlining the timeline for test 
 
 Once these elements are in place, the Test Execution phase can proceed, ensuring comprehensive coverage of the Polymer Shop functionalities and a robust validation process.
 
-<h3>1.6. Test Execution </h3>
+<h3> 1.6. Test Execution </h3>
 
 Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
 
@@ -306,7 +278,7 @@ The final report shows that a number of 2 tests failed, of which there were a to
 
 A number of 2 total bugs were found, from which the priority is high.
 
-**<h5> Conclusion </h5>**
+**<h2> Conclusion </h2>**
 
 The "Polymer Shop" application testing project was successfully carried out, using JIRA and the Zephyr plugin to organize and track testing activities.
 
