@@ -1,6 +1,6 @@
 <h1>Testing Project for Polymer Shop</h1>
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
+The primary objective of this testing plan project is to outline the strategies, scope, schedule, and approach for testing the Polymer Shop application. The goal is to ensure that all functionalities are working as expected and to identify potential bugs or performance issues.
 
 Application under test: [Polymer Shop](https://shop.polymer-project.org/)
 
@@ -51,21 +51,23 @@ The plan identifies the items to be tested, the features to be tested, the types
 **1. Product Catalog**
 • Viewing products in various categories (e.g., Men’s Outwear, Ladies Outwear).
 • Filtering and sorting products by price, name, or popularity.
-3.2. Product Details Page
+
+**2. Product Details Page**
 • Viewing product descriptions, prices, and available sizes/colours.
 • Selecting product quantity.
-3.3. Cart Management
+
+**3. Cart Management**
 • Adding a product to the cart.
 • Modifying product quantity in the cart.
 • Removing products from the cart.
 • Viewing cart summary (total price, product details).
 
-**2. Checkout**
+**4. Checkout**
 • Entering shipping and billing information.
 • Payment gateway integration (if applicable).
 • Confirming orders.
 
-**3. Navigation**
+**5. Navigation**
 • Navigating between different pages (e.g., home, product pages, cart).
 • Testing for broken links or buttons that don’t function correctly.
 
@@ -80,14 +82,14 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 **<h5>Project risks:</h5>**
 
-Risk 1: Incomplete execution of planned tests
+**Risk 1: Incomplete execution of planned tests**
 Description: Of the 10 tests written, only 3 have been run to date, indicating a potential delay in testing completion.
 Impact: High - If tests remain unrun, there is a risk that other critical bugs will not be identified before release.
 Probability: Medium
 Priority: High
 Mitigation: Allocating additional testing resources and setting clear deadlines for the execution of the remaining tests.
 
-Risk 2: Insufficient resources for testing
+**Risk 2: Insufficient resources for testing**
 Description: The low number of tests run suggests that the test team may be undersized or that there are issues with time and resource management.
 Impact: High - Insufficient resources can lead to inadequate testing coverage, which increases the likelihood of releasing a defective product.
 Probability: Medium
@@ -96,14 +98,14 @@ Mitigation: Reviewing resource planning, ensuring that the test team has suffici
 
 **<h5> Product risks: </h5>**
 
-Risk 1: Severity A bugs
+**Risk 1: Severity A bugs**
 Description: The two bugs identified with severity A may affect critical functionality of the application, having a major impact on end users.
 Impact: Very High - Severity A bugs can result in data loss, users' inability to perform transactions or access critical functionality.
 Likelihood: Medium - Given that bugs have already been identified, there is a chance that other critical issues are still present.
 Priority: Very High
 Mitigation: Immediate remediation of A-severity bugs and re-executing tests to verify application stability after remediation.
 
-Risk 2: Negative impact on user experience
+**Risk 2: Negative impact on user experience**
 Description: Critical bugs directly affect the user experience, which can lead to dissatisfaction, loss of customers and damage to the app's reputation.
 Impact: Very High - A broken or unstable product can negatively affect user loyalty and the commercial success of the application.
 Probability: Medium
