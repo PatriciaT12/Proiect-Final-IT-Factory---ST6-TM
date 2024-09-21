@@ -11,6 +11,7 @@ Tools used: Jira, Zephyr Squad.
 The stories below were created in Jira and describe the functional specifications of the "SHOP" module, for which the final project is performed.
 
 ![Story 1](Story 1.png)
+
 ![Story 2](Story 2.png)
 
 <h2>Testing process</h2>
