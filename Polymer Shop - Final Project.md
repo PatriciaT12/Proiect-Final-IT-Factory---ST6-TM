@@ -8,7 +8,7 @@ Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below stories were created in Jira and describe the functional specifications of the "SHOP" module, for which the final project is performed upon.
+The stories below were created in Jira and describe the functional specifications of the "SHOP" module, for which the final project is performed.
 
 [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Story-1]]
 [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Story-2]]
@@ -38,21 +38,47 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+• Development team has completed coding and unit testing.
+• All test data is prepared and available.
+• All necessary test environments are set up.
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+• All critical and major bugs are resolved.
+• 98% of test cases are passed.
+• No high-severity defects remain unresolved.
 
 <h4> 1.1.4 Test scope</h4>
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+1. Product Catalog
+• Viewing products in various categories (e.g., Men’s Outwear, Ladies Outwear).
+• Filtering and sorting products by price, name, or popularity.
+3.2. Product Details Page
+• Viewing product descriptions, prices, and available sizes/colours.
+• Selecting product quantity.
+3.3. Cart Management
+• Adding a product to the cart.
+• Modifying product quantity in the cart.
+• Removing products from the cart.
+• Viewing cart summary (total price, product details).
+
+3. Checkout
+• Entering shipping and billing information.
+• Payment gateway integration (if applicable).
+• Confirming orders.
+
+3. Navigation
+• Navigating between different pages (e.g., home, product pages, cart).
+• Testing for broken links or buttons that don’t function correctly.
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+• Backend database optimizations and server-side performance tuning.
+• Third-party API performance (if any).
+• Security Testing
+• Performance Testing
 
 <h4>1.1.5 Risks detected</h4>
 
