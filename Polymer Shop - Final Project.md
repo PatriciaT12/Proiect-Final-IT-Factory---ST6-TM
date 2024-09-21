@@ -6,6 +6,58 @@ Application under test: [Polymer Shop](https://shop.polymer-project.org/)
 
 Tools used: Jira, Zephyr Squad.
 
+<h1> Table of Content:</h1>
+
+1. Introduction
+         • Project Objective
+         • Functionalities in Scope
+2. Test Process
+         • Test Planning
+                 • Roles and Responsibilities
+                 • Entry Criteria
+                 • Exit Criteria
+                 • Risks
+         • Test Analysis
+         • Test Design
+         • Test Implementation
+         • Test Execution
+         • Test Closure
+         • Test Monitoring and Control
+3. Test Deliverables
+         • Test Conditions
+         • Test Cases
+         • Daily Test Summary Reports
+         • Traceability Matrix
+         • Test Case Results
+         • Bugs Report
+         • Test Completion Report
+         • Schedule
+4. Conclusion
+   
+Functionalities in Scope
+Functionalities and Tests Out of Scope
+Test Process
+Test Planning
+Roles and Responsibilities
+Entry Criteria
+Exit Criteria
+Risks
+Test Analysis
+Test Design
+Test Implementation
+Test Execution
+Test Closure
+Test Monitoring and Control
+Test Deliverables
+Test Conditions
+Test Cases
+Daily Test Summary Reports
+Traceability Matrix
+Test Case Results
+Bugs Report
+Test Completion Report
+Schedule
+
 <h2>Functional specifications:</h2>
 
 The stories below were created in Jira and describe the functional specifications of the "SHOP" module, for which the final project is performed.
@@ -147,7 +199,7 @@ Mitigation: Focusing on quickly identifying all major functionality issues and c
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control for Polymer Shop Project<h3>
+<h3>1.2 Test Monitoring and Control for Polymer Shop Project</h3>
   
 The testing process for the Polymer Shop Project will be closely monitored through periodic reports that provide an overview of the current status and progress of testing activities. Key aspects of test monitoring and control will include:
 
