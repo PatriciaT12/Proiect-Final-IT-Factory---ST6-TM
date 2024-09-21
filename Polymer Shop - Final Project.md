@@ -2,7 +2,7 @@
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: Polymer Shop
+Application under test: [Polymer Shop](https://shop.polymer-project.org/)
 
 Tools used: Jira, Zephyr Squad.
 
@@ -10,12 +10,8 @@ Tools used: Jira, Zephyr Squad.
 
 The stories below were created in Jira and describe the functional specifications of the "SHOP" module, for which the final project is performed.
 
-[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Story-1]]
-[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Story-2]]
-
-Here you can find the release that was created for this project:
-
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+![Story 1](Story 1.png)
+![Story 2](Story 2.png)
 
 <h2>Testing process</h2>
 
@@ -25,7 +21,7 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Polymer Shop Testing Plan](Polymer Shop Testing Plan.pdf)
 
 <h4>1.1.1. Roles assigned to the project and persons allocated</h4>
 
@@ -52,7 +48,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h5> Tests in scope: </h5>
 
-1. Product Catalog
+**1. Product Catalog**
 • Viewing products in various categories (e.g., Men’s Outwear, Ladies Outwear).
 • Filtering and sorting products by price, name, or popularity.
 3.2. Product Details Page
@@ -64,12 +60,12 @@ The plan identifies the items to be tested, the features to be tested, the types
 • Removing products from the cart.
 • Viewing cart summary (total price, product details).
 
-3. Checkout
+**2. Checkout**
 • Entering shipping and billing information.
 • Payment gateway integration (if applicable).
 • Confirming orders.
 
-3. Navigation
+**3. Navigation**
 • Navigating between different pages (e.g., home, product pages, cart).
 • Testing for broken links or buttons that don’t function correctly.
 
@@ -82,7 +78,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4>1.1.5 Risks detected</h4>
 
-<h5>Project risks:</h5>
+**<h5>Project risks:</h5>**
 
 Risk 1: Incomplete execution of planned tests
 Description: Of the 10 tests written, only 3 have been run to date, indicating a potential delay in testing completion.
@@ -98,7 +94,7 @@ Probability: Medium
 Priority: High
 Mitigation: Reviewing resource planning, ensuring that the test team has sufficient staff and time allocated to complete all required tests.
 
-<h5> Product risks: </h5>
+**<h5> Product risks: </h5>**
 
 Risk 1: Severity A bugs
 Description: The two bugs identified with severity A may affect critical functionality of the application, having a major impact on end users.
@@ -109,7 +105,7 @@ Mitigation: Immediate remediation of A-severity bugs and re-executing tests to v
 
 Risk 2: Negative impact on user experience
 Description: Critical bugs directly affect the user experience, which can lead to dissatisfaction, loss of customers and damage to the app's reputation.
-Impact: Very High - A broken or unstable product can have negative consequences on user loyalty and the commercial success of the application.
+Impact: Very High - A broken or unstable product can negatively affect user loyalty and the commercial success of the application.
 Probability: Medium
 Priority: Very High
 Mitigation: Focusing on quickly identifying all major functionality issues and correcting them prior to official release.
@@ -127,11 +123,15 @@ The testing process will be executed based on the application requirements. <b>(
 
 The following test conditions were found: <br>
 
-[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Test-Conditions]]
+[Test Conditions](Test Conditions.png)
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
+
+[Test Case 1](Test Case 1.png)
+[Test Case 2](Test Case 2.png)
+[Test Case 3](Test Case 3.png)
 
 <h3>1.5 Test Implementation</h3>
 
@@ -143,24 +143,29 @@ The following elements are needed to be ready before the test execution phase be
 
 Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Bug-Report-1]] and [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Bug-Report-2]]
+Bugs have been created based on the failed tests. The complete bug reports can be found here: 
+
+[Bug Report 1](Bug Report 1.png)
+[Bug Report 2](Bug Report 2.png)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 <h3> 1.7 Test Completion</h3>
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: [[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Matricea-trasabilitatii]]
+The traceability matrix was generated and can be found here: 
+
+[Traceability Matrix](Traceability Matrix.png)
 
 Test execution chart was generated and can be found below. 
 
-[[https://github.com/PatriciaT12/Proiect-Final-IT-Factory---ST6-TM/wiki/Raport-de-executie-%E2%80%90-Jira-Dashboards]]
+[Test execution chart](Raport de executie.png)
 
 The final report shows that a number of 2 tests failed, of which there were a total of 3.
 
 A number of 2 total bugs were found, from which the priority is high.
 
-<h5> Conclusion </h5>
+**<h5> Conclusion </h5>**
 
 The "Polymer Shop" application testing project was successfully carried out, using JIRA and the Zephyr plugin to organize and track testing activities.
 
