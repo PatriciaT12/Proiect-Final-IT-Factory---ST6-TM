@@ -22,7 +22,9 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Polymer Shop Testing Plan](Polymer Shop Testing Plan.pdf)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here:
+
+[Polymer Shop Testing Plan.pdf](https://github.com/user-attachments/files/17084490/Polymer.Shop.Testing.Plan.pdf)
 
 <h4>1.1.1. Roles assigned to the project and persons allocated</h4>
 
@@ -35,7 +37,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-• Development team has completed coding and unit testing.
+• The development team has completed coding and unit testing.
 • All test data is prepared and available.
 • All necessary test environments are set up.
 
@@ -117,9 +119,29 @@ Mitigation: Focusing on quickly identifying all major functionality issues and c
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
+<h3>##1.2 Test Monitoring and Control for Polymer Shop Project##<h3>
+  
+The testing process for the Polymer Shop Project will be closely monitored through periodic reports that provide an overview of the current status and progress of testing activities. Key aspects of test monitoring and control will include:
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+•	**Progress Updates**: Regular reports will be shared with the QA team, developers, and other stakeholders, highlighting the overall progress of the testing phase. This will ensure that everyone is aware of the current state of testing.
+
+•	**Test Results Communication**: Achieved test results, including test case execution status and defect reports, will be communicated to all relevant parties. This will help stakeholders understand the performance and quality of the system.
+
+•	**Tracking Key Metrics**: Relevant testing metrics such as pass/fail rates, defect density, test coverage, and execution timelines will be continuously monitored. These metrics will guide decision-making and future planning.
+
+•	**Test Case Development and Review**: All test cases will be documented, reviewed, and approved by the QA team. This ensures alignment with project requirements and that critical scenarios are thoroughly tested.
+
+•	**Planning and Adjustments**: Based on the metrics and progress being tracked, adjustments to the testing strategy will be made. This may involve reallocating resources, adjusting timelines, or reordering priorities.
+
+•	**Prioritization of Testing Efforts**: Testing priorities may be reevaluated to focus on high-risk areas, based on insights from test results and issues identified so far.
+
+•	**Test Schedule and Deadlines**: If necessary, test schedules and deadlines will be reorganized to accommodate changes in project requirements or testing priorities, ensuring critical features are tested within the available time.
+
+•	**Environment Restructuring**: The test environment may be modified to address any issues or bottlenecks encountered, ensuring that it reflects the real-world conditions where the application will be deployed.
+
+•	**Reprioritization of Test Cases and Conditions**: Based on ongoing assessments, test cases and conditions will be reprioritized to ensure that the most critical functionalities are tested first, with less critical tests scheduled as resources allow.
+
+Through this process of monitoring and control, the Polymer Shop Project will remain agile and responsive, ensuring that testing efforts are directed where they are most needed and that the overall quality of the application is maintained.
 
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
