@@ -8,7 +8,7 @@ Tools used: Jira, Zephyr Squad.
 
 <h1> Table of Content:</h1>
 
-1. Introduction
+1. [Introduction](#introduction)
 * Project Objective
 * Functionalities in Scope
 2. Test Process
