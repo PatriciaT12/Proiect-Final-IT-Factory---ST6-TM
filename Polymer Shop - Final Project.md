@@ -175,23 +175,23 @@ The entry criteria defined in the Test Planning phase have been achieved and the
   
 The testing process for the Polymer Shop Project will be closely monitored through periodic reports that provide an overview of the current status and progress of testing activities. Key aspects of test monitoring and control will include:
 
-•	**Progress Updates**: Regular reports will be shared with the QA team, developers, and other stakeholders, highlighting the overall progress of the testing phase. This will ensure that everyone is aware of the current state of testing.
+*	**Progress Updates**: Regular reports will be shared with the QA team, developers, and other stakeholders, highlighting the overall progress of the testing phase. This will ensure that everyone is aware of the current state of testing.
 
-•	**Test Results Communication**: Achieved test results, including test case execution status and defect reports, will be communicated to all relevant parties. This will help stakeholders understand the performance and quality of the system.
+*	**Test Results Communication**: Achieved test results, including test case execution status and defect reports, will be communicated to all relevant parties. This will help stakeholders understand the performance and quality of the system.
 
-•	**Tracking Key Metrics**: Relevant testing metrics such as pass/fail rates, defect density, test coverage, and execution timelines will be continuously monitored. These metrics will guide decision-making and future planning.
+*	**Tracking Key Metrics**: Relevant testing metrics such as pass/fail rates, defect density, test coverage, and execution timelines will be continuously monitored. These metrics will guide decision-making and future planning.
 
-•	**Test Case Development and Review**: All test cases will be documented, reviewed, and approved by the QA team. This ensures alignment with project requirements and that critical scenarios are thoroughly tested.
+*	**Test Case Development and Review**: All test cases will be documented, reviewed, and approved by the QA team. This ensures alignment with project requirements and that critical scenarios are thoroughly tested.
 
-•	**Planning and Adjustments**: Based on the metrics and progress being tracked, adjustments to the testing strategy will be made. This may involve reallocating resources, adjusting timelines, or reordering priorities.
+*	**Planning and Adjustments**: Based on the metrics and progress being tracked, adjustments to the testing strategy will be made. This may involve reallocating resources, adjusting timelines, or reordering priorities.
 
-•	**Prioritization of Testing Efforts**: Testing priorities may be reevaluated to focus on high-risk areas, based on insights from test results and issues identified so far.
+*	**Prioritization of Testing Efforts**: Testing priorities may be reevaluated to focus on high-risk areas, based on insights from test results and issues identified so far.
 
-•	**Test Schedule and Deadlines**: If necessary, test schedules and deadlines will be reorganized to accommodate changes in project requirements or testing priorities, ensuring critical features are tested within the available time.
+*	**Test Schedule and Deadlines**: If necessary, test schedules and deadlines will be reorganized to accommodate changes in project requirements or testing priorities, ensuring critical features are tested within the available time.
 
-•	**Environment Restructuring**: The test environment may be modified to address any issues or bottlenecks encountered, ensuring that it reflects the real-world conditions where the application will be deployed.
+*	**Environment Restructuring**: The test environment may be modified to address any issues or bottlenecks encountered, ensuring that it reflects the real-world conditions where the application will be deployed.
 
-•	**Reprioritization of Test Cases and Conditions**: Based on ongoing assessments, test cases and conditions will be reprioritized to ensure that the most critical functionalities are tested first, with less critical tests scheduled as resources allow.
+*	**Reprioritization of Test Cases and Conditions**: Based on ongoing assessments, test cases and conditions will be reprioritized to ensure that the most critical functionalities are tested first, with less critical tests scheduled as resources allow.
 
 Through this process of monitoring and control, the Polymer Shop Project will remain agile and responsive, ensuring that testing efforts are directed where they are most needed and that the overall quality of the application is maintained.
 
@@ -218,36 +218,36 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 The following elements are needed to be ready before the test execution phase begins:
 
 **•	Test Cases:**
-o	All test cases must be fully documented, reviewed, and approved.
+*	All test cases must be fully documented, reviewed, and approved.
 
-o	Both manual and automated test cases should be clearly outlined to cover all functionalities such as user authentication, cart management, and checkout process.
+*	Both manual and automated test cases should be clearly outlined to cover all functionalities such as user authentication, cart management, and checkout process.
 
 **•	Test Data:**
-o	Accurate and comprehensive test data needs to be created to simulate real-world scenarios.
+*	Accurate and comprehensive test data needs to be created to simulate real-world scenarios.
 
-o	This includes multiple user profiles, different product types (e.g., Men's and Women's Outwear), and various payment methods.
+*	This includes multiple user profiles, different product types (e.g., Men's and Women's Outwear), and various payment methods.
 
 **•	Test Environment:**
-o	The test environment should be set up to mirror the production environment as closely as possible.
+*	The test environment should be set up to mirror the production environment as closely as possible.
 
-o	All necessary components such as servers, databases, and third-party integrations must be configured correctly.
+*	All necessary components such as servers, databases, and third-party integrations must be configured correctly.
 
 **•	Test Tools:**
-o	All testing tools (e.g., JIRA with Zephyr Squad for test case management) should be installed, integrated, and verified.
+*	All testing tools (e.g., JIRA with Zephyr Squad for test case management) should be installed, integrated, and verified.
 
 **•	Test Resources:**
 
-o	The testing team must be briefed on their roles and responsibilities.
+*	The testing team must be briefed on their roles and responsibilities.
 
-o	Adequate resources and personnel should be allocated for test execution, defect reporting, and re-testing.
+*	Adequate resources and personnel should be allocated for test execution, defect reporting, and re-testing.
 
 **•	Test Environment Accessibility:**
 
-o	Ensure the environment is accessible to all testers and stakeholders, with proper permissions and access to tools and infrastructure.
+*	Ensure the environment is accessible to all testers and stakeholders, with proper permissions and access to tools and infrastructure.
 
 **•	Test Schedule:**
 
-o	A finalized test schedule should be in place, outlining the timeline for test execution, regression testing, and final reviews.
+*	A finalized test schedule should be in place, outlining the timeline for test execution, regression testing, and final reviews.
 
 Once these elements are in place, the Test Execution phase can proceed, ensuring comprehensive coverage of the Polymer Shop functionalities and a robust validation process.
 
@@ -287,6 +287,6 @@ Within this project, 3 stories were created and planned, all covered by tests, w
 
 Following the execution of the tests, 2 major bugs were identified, classified with severity A, which indicate critical issues that can significantly affect end users. Severity A suggests that these bugs affect the core functionality of the application, which can lead to a severely compromised user experience.
 
-These issues should be addressed with the highest priority, because if left unresolved, they can lead to the inability to access certain critical features of the application.
+These issues should be addressed with the highest priority because if left unresolved, they can lead to the inability to access certain critical features of the application.
 
 In conclusion, although the test coverage is promising and all stories are covered, the limited test execution and critical bugs identified show that the project needs further attention to ensure the delivery of a stable and reliable application. It is essential that the development team prioritizes the resolution of identified bugs to minimize the impact on end users and improve the overall quality of the application before release.
