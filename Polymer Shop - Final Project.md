@@ -36,10 +36,10 @@ Tools used: Jira, Zephyr Squad.
 
 <h1> Introduction </h1>
 
-1.1. Project Overview
+1.1. Project Overview - 
 The Polymer Shop is an e-commerce web application that demonstrates the capabilities of the Polymer framework. Users can browse a variety of products, add items to the cart, and place orders. The purpose of this testing plan is to ensure that the application is functioning correctly and meets business requirements and user expectations.
 
-1.2. Objective
+1.2. Objective - 
 The primary objective of this testing plan is to outline the strategies, scope, schedule, and approach for testing the Polymer Shop application. The goal is to ensure that all functionalities are working as expected and to identify potential bugs or performance issues.
 
 1.3. Scope
