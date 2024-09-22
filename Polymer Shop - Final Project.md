@@ -9,8 +9,8 @@ Tools used: Jira, Zephyr Squad.
 <h1> Table of Content:</h1>
 
 1. [Introduction](#introduction)
-* Project Objective
-* Functionalities in Scope
+* [Project Objective](#1.2.Objective)
+* [Functionalities in Scope](#1.3.Scope)
 2. Test Process
 * Test Planning
 * Roles and Responsibilities
